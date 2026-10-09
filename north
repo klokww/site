@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NØRTH — Streetwear</title>
+<meta name="description" content="NØRTH — независимый streetwear-бренд. Минимализм, свобода и характер.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header" id="header">
+  <a href="#hero" class="logo">NØRTH</a>
+  <nav class="nav" id="nav" aria-label="Главное меню">
+    <a href="#hero">Главная</a>
+    <a href="#collection">Коллекция</a>
+    <a href="#about">О бренде</a>
+    <a href="#contacts">Контакты</a>
+  </nav>
+  <div class="head-actions">
+    <button class="cart" id="cartButton" aria-label="Открыть корзину">КОРЗИНА <span id="cartCount">0</span></button>
+    <button class="burger" id="burger" aria-label="Меню" aria-expanded="false"><i></i><i></i></button>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <p class="hero-small">AUTUMN / WINTER 2026</p>
+      <h1><span>MOVE</span><span>DIFFERENT.</span></h1>
+      <p class="hero-description">Минималистичная одежда для тех, кто создаёт собственный путь.</p>
+      <a href="#collection" class="hero-button">СМОТРЕТЬ КОЛЛЕКЦИЮ →</a>
+    </div>
+    <div class="scroll-hint">SCROLL ↓</div>
+  </section>
+
+  <div class="marquee" aria-hidden="true"><div class="track">
+    <span>NO RULES</span><span>✕</span><span>NO LIMITS</span><span>✕</span><span>MOVE DIFFERENT</span><span>✕</span>
+    <span>NO RULES</span><span>✕</span><span>NO LIMITS</span><span>✕</span><span>MOVE DIFFERENT</span><span>✕</span>
+  </div></div>
+
+  <section class="collection reveal" id="collection">
+    <div class="section-header">
+      <div><p class="section-label">NØRTH / 01</p><h2>NEW COLLECTION</h2></div>
+      <a href="#collection" class="view-all">VIEW ALL →</a>
+    </div>
+
+    <div class="products">
+      <article class="product" data-id="hoodie" data-name="OVERSIZED HOODIE" data-price="7490">
+        <div class="product-image"><span class="badge">NEW</span>
+          <img src="https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?auto=format&fit=crop&w=900&q=80" alt="Oversized hoodie" loading="lazy"></div>
+        <div class="product-info"><h3>OVERSIZED HOODIE</h3><p>7 490 ₽</p></div>
+      </article>
+      <article class="product" data-id="tee" data-name="NØRTH T-SHIRT" data-price="4290">
+        <div class="product-image">
+          <img src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&w=900&q=80" alt="NØRTH T-shirt" loading="lazy"></div>
+        <div class="product-info"><h3>NØRTH T-SHIRT</h3><p>4 290 ₽</p></div>
+      </article>
+      <article class="product" data-id="pants" data-name="WIDE PANTS" data-price="6990">
+        <div class="product-image"><span class="badge">NEW</span>
+          <img src="https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&w=900&q=80" alt="Wide pants" loading="lazy"></div>
+        <div class="product-info"><h3>WIDE PANTS</h3><p>6 990 ₽</p></div>
+      </article>
+      <article class="product" data-id="basic" data-name="BASIC T-SHIRT" data-price="3490">
+        <div class="product-image">
+          <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=80" alt="Basic T-shirt" loading="lazy"></div>
+        <div class="product-info"><h3>BASIC T-SHIRT</h3><p>3 490 ₽</p></div>
+      </article>
+    </div>
+  </section>
+
+  <section class="about reveal" id="about">
+    <div class="about-image"><img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1200&q=85" alt="NØRTH brand" loading="lazy"></div>
+    <div class="about-content">
+      <p class="section-label">NØRTH / 02</p>
+      <h2>NO RULES.<br>NO LIMITS.</h2>
+      <p class="about-text">NØRTH — независимый streetwear-бренд, созданный для людей, которые не хотят следовать чужим правилам.</p>
+      <p class="about-text">Мы создаём вещи, которые можно носить каждый день и сочетать по-своему. Минимализм, свобода и характер — основа каждой коллекции.</p>
+      <div class="stats"><div><b>2021</b><span>основан</span></div><div><b>40+</b><span>вещей в базовой линейке</span></div><div><b>100%</b><span>хлопок</span></div></div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer reveal" id="contacts">
+  <div class="footer-top">
+    <div class="footer-brand"><div class="footer-logo">NØRTH</div><p>MOVE DIFFERENT.</p></div>
+    <div class="footer-column"><h4>SHOP</h4><a href="#collection">New Collection</a><a href="#collection">Hoodies</a><a href="#collection">T-Shirts</a><a href="#collection">Pants</a></div>
+    <div class="footer-column"><h4>INFO</h4><a href="#about">О бренде</a><a href="#contacts">Доставка</a><a href="#contacts">Возврат</a><a href="#contacts">Контакты</a></div>
+    <div class="footer-column"><h4>SOCIAL</h4><a href="#contacts">Instagram</a><a href="#contacts">Telegram</a><a href="#contacts">VK</a></div>
+  </div>
+  <div class="footer-bottom"><span>© 2026 NØRTH</span><span>MADE FOR DIFFERENT PEOPLE</span></div>
+</footer>
+
+<div class="overlay" id="overlay"></div>
+<aside class="drawer" id="drawer" aria-label="Корзина" aria-hidden="true">
+  <div class="drawer-head"><h3>КОРЗИНА</h3><button id="closeCart" aria-label="Закрыть">✕</button></div>
+  <ul class="cart-list" id="cartList"></ul>
+  <div class="drawer-foot">
+    <div class="total"><span>ИТОГО</span><b id="cartTotal">0 ₽</b></div>
+    <button class="checkout" id="checkout">ОФОРМИТЬ ЗАКАЗ</button>
+    <p class="ship" id="ship"></p>
+  </div>
+</aside>
+<div class="toast" id="toast" role="status"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
