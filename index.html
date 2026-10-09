@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;700;800&display=swap" rel="stylesheet">
+<script>document.documentElement.classList.add("js")</script>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -106,6 +107,6 @@
 </aside>
 <div class="toast" id="toast" role="status"></div>
 
-<script src="script.js"></script>
+<script src="script.js" defer onerror="document.documentElement.classList.remove('js')"></script>
 </body>
 </html>
